@@ -12,6 +12,7 @@
 #include <fstream>
 #include <algorithm>
 #include <random>
+
 namespace AntiCrack
 {
 
@@ -49,9 +50,9 @@ namespace AntiCrack
 	}
 
 	void Tick() {
-		if (isProcRunning("ida64.exe") || isProcRunning("dotPeek64.exe") || isProcRunning("ida32.exe") || isProcRunning("ida.exe") || isProcRunning("reclass.net.exe") || isProcRunning("reclass.exe") || isProcRunning("heyrays.exe") || isProcRunning("lighthouse.exe") || isProcRunning("cheatengine-x86_64.exe") || isProcRunning("classinformer.exe") || isProcRunning("ida-x86emu.exe") || isProcRunning("cffexplorer.exe") || isProcRunning("winhex.exe") || isProcRunning("hiew.exe") || isProcRunning("fiddler.exe") || isProcRunning("httpdebugger.exe") || isProcRunning("httpdebuggerpro.exe") || isProcRunning("scylla.exe") || isProcRunning("Cheat Engine.exe"))
+		if (isProcRunning("ida64.exe") || isProcRunning("dotPeek64.exe") || isProcRunning("ida32.exe") || isProcRunning("ida.exe") || isProcRunning("reclass.net.exe") || isProcRunning("reclass.exe") || isProcRunning("heyrays.exe") || isProcRunning("lighthouse.exe") || isProcRunning("cheatengine-x86_64.exe") || isProcRunning("classinformer.exe") || isProcRunning("ida-x86emu.exe") || isProcRunning("cffexplorer.exe") || isProcRunning("winhex.exe") || isProcRunning("hiew.exe") || isProcRunning("fiddler.exe") || isProcRunning("httpdebugger.exe") || isProcRunning("httpdebuggerpro.exe") || isProcRunning("scylla.exe") || isProcRunning("Cheat Engine.exe") || isProcRunning("dnSpy.exe") || isProcRunning("dnSpy.Console.exe"))
 		{
-			MessageBox(NULL, "Please close any fucking reverse engineering tools and restart the program.", "Error", MB_ICONERROR);
+			MessageBox(NULL, "Stop trying to crack this shit faggot, Please close any fucking reverse engineering tools and restart the program.", "Error", MB_ICONERROR);
 			ExitProcess(0);
 		}
 	}
